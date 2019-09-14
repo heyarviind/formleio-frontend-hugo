@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Sidecards</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ $style := resources.Get "argon/argon.scss" | toCSS | minify | fingerprint }} 
+    <link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
