@@ -30,6 +30,16 @@ body{
   // }
 }
 
+.bg-primary-highlight{
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: lighten($blue, 100%);
+
+  &.active{
+    background-color: lighten($blue, 45%);
+  }
+}
+
 // Notification Styles
 .nbf-dev{
   width: 100%;
