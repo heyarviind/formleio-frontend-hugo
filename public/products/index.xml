@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Products on My New Hugo Site</title><link>https://uisuite.io/products/</link><description>Recent content in Products on My New Hugo Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 19 Oct 2019 17:03:46 +0530</lastBuildDate><atom:link href="https://uisuite.io/products/index.xml" rel="self" type="application/rss+xml"/><item><title>Forms Backend</title><link>https://uisuite.io/products/forms-backend/</link><pubDate>Sat, 19 Oct 2019 17:03:46 +0530</pubDate><guid>https://uisuite.io/products/forms-backend/</guid><description>You made the forms, we build the backend Don&#39;t worry about your forms, we cover it all without any coding required
+Add Forms, its free &amp;lt;form action=&#34;form.uisuite.io/your-form-id&#34; method=&#34;post&#34;
+&amp;lt;input name=&#34;name&#34; type=&#34;text&#34;
+&amp;lt;input name=&#34;email&#34; type=&#34;email&#34;
+&amp;lt;input name=&#34;phone&#34; type=&#34;number&#34;
+&amp;lt;/form How it work Create Just give a name to your form and get the form URL
+Embed Add the form URL in the action attribute in any of your forms</description></item></channel></rss>
