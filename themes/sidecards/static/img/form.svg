@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="312" height="312" viewBox="0 0 312 312">
+  <defs>
+    <circle id="form-b" cx="156.5" cy="156.5" r="128.5"/>
+    <filter id="form-a" width="125.3%" height="125.3%" x="-12.6%" y="-10.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0980392157   0 0 0 0 0.474509804   0 0 0 0 0.941176471  0 0 0 0.581375656 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" filter="url(#form-a)" xlink:href="#form-b"/>
+    <use fill="#1979F0" xlink:href="#form-b"/>
+    <rect width="117" height="150" x="98" y="81" fill="#FFF" rx="26"/>
+    <g transform="translate(122 100)">
+      <rect width="68" height="16" fill="#E0E6EE" rx="8"/>
+      <rect width="68" height="16" y="26" fill="#E0E6EE" rx="8"/>
+      <rect width="39" height="16" y="96" fill="#1979F0" rx="8"/>
+      <rect width="68" height="34" y="52" fill="#E0E6EE" rx="13"/>
+    </g>
+  </g>
+</svg>

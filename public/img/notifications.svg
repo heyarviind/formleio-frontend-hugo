@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="312" height="312" viewBox="0 0 312 312">
+  <defs>
+    <circle id="norifications-b" cx="156.5" cy="156.5" r="128.5"/>
+    <filter id="norifications-a" width="125.3%" height="125.3%" x="-12.6%" y="-10.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.980392157   0 0 0 0 0.388235294   0 0 0 0 0.250980392  0 0 0 0.573918269 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" filter="url(#norifications-a)" xlink:href="#norifications-b"/>
+    <use fill="#FA6340" xlink:href="#norifications-b"/>
+    <g transform="translate(77 114)">
+      <rect width="136" height="61" x="3.5" y="19.5" stroke="#FFF" stroke-width="7" rx="11"/>
+      <circle cx="138" cy="20" r="20" fill="#FFF" stroke="#FA6340" stroke-width="11"/>
+    </g>
+  </g>
+</svg>

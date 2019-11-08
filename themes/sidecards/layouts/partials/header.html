@@ -1,6 +1,6 @@
 {{ partial "head.html" . }}
-
-<nav class="navbar navbar-expand-lg navbar-light container">
+<div {{ if .IsHome }} style="background-color: #F5E7D8" {{ end }}>
+  <nav class="navbar navbar-expand-lg navbar-light container" >
   <a class="navbar-brand" href="{{ .Site.BaseURL }}/"><h4 class="text-lowercase">uisuite.io</h4></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@
           Products
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Form Backend</a>
+          <a class="dropdown-item" href="{{.Site.BaseURL}}/products/forms-backend/">Form Backend</a>
           <a class="dropdown-item" href="#">Notification</a>
         </div>
       </li>
@@ -31,11 +31,12 @@
 
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a href="https://app.uisuite.io/signup" class="nav-link">Sign Up</a>
+        <a href="https://app.uisuite.io/signup" class="mt-2 btn btn-m">Sign Up</a>
       </li>
       <li class="nav-item">
-        <a href="https://app.uisuite.io/login" class="mt-2 btn btn-primary">Login</a>
+        <a href="https://app.uisuite.io/login" class="mt-2 btn btn-dark" style="border-radius: 50px;">Login</a>
       </li>
     </ul>
   </div>
 </nav>
+</div>
