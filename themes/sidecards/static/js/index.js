@@ -1,25 +1,16 @@
-for (const bar of $All(".coverFeatureBar")){
-	bar.addEventListener("click", function() {
-		// Remove active class from already active bar
-		for(const activebar of $All(".bg-primary-highlight")) {
-			activebar.classList.remove("active")
-		}
+var signupButton = $("#signup-button");
+var signupEmail = $("#cover-signup-email");
+var signupForm = $("#signupForm");
 
-		const imgURL = bar.getAttribute("data-image")
-		$(".feature-image").src = imgURL
-		// Add to current bar
-		bar.classList.add("active")
+signupForm.addEventListener("submit", function(e) {
+  e.preventDefault();
+  window.location = "https://app.uisuite.io/signup?email=" + signupEmail.value;
+});
 
-	});
+function $(el) {
+  return document.querySelector(el);
 }
 
-
-
-
-function $ (el) {
-	return document.querySelector(el)
-}
-
-function $All (el) {
-	return document.querySelectorAll(el)
+function $All(el) {
+  return document.querySelectorAll(el);
 }

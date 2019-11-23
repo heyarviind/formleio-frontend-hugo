@@ -6,16 +6,24 @@
 							<div class="">
 								<h1>Easily add features to your website</h1>
 								<p class="text-muted">Choose the featurs and quickly add them to your website without coding</p>
-				
-								<div class="input-group mb-3 shadow-sm">
-									<input type="text" class="form-control form-control-alternative" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
-									<div class="input-group-append">
-										<button class="btn btn-dark" type="button" id="button-addon2">Sign Up</button>
-									</div>
-								</div>
-				
-								<div class="text-danger">This email is already taken</div>
 								
+								<form class="input-group mb-3 shadow-sm" id="signupForm">
+									<input 
+										type="email" 
+										required
+										id="cover-signup-email"
+										class="form-control form-control-alternative" 
+										placeholder="Enter your email" 
+										aria-label="Recipient's username" 
+										aria-describedby="button-addon2">
+									<div class="input-group-append">
+										<button 
+											class="btn btn-dark" 
+											type="submit" 
+											id="signup-button"
+											>Sign Up</button>
+									</div>
+								</form>
 							</div>
 						</div>
 						<div class="col-7 text-right">
@@ -24,3 +32,4 @@
 					</div>
 		</div>
 	</div>
+
